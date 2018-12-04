@@ -77,17 +77,19 @@ section.hero {
   margin-bottom: -20px;
 
 }
-.social{
 
-}
 section.hero1 {
-  background-image: url("../img/taylor.png");
+  background-image: url("../img/taylor.jpg");
   width: 100%;
   margin: 0 auto;
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: -20px;
 
+}
+
+.stuff {
+  font-size: 1.5rem;
 }
 
 section.black {
@@ -101,8 +103,8 @@ section.white {
 }
 
 section.padded {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 section.hero {
@@ -110,6 +112,13 @@ section.hero {
   padding-bottom: 25rem;
 }
 
+.caption {
+  font-size: 1.5rem;
+}
+
+.wow li{
+  color: #ff7bac;
+}
 section.hero h3 {
   font-size: 7rem;
   font-weight: 500;

@@ -77,8 +77,11 @@ section.hero {
   margin-bottom: -20px;
 
 }
+.social{
+
+}
 section.hero1 {
-  background-image: url("../img/3150.jpg");
+  background-image: url("../img/taylor.png");
   width: 100%;
   margin: 0 auto;
   background-size: cover;
@@ -108,6 +111,17 @@ section.hero {
 }
 
 section.hero h3 {
+  font-size: 7rem;
+  font-weight: 500;
+  color: white;
+}
+
+section.hero1 {
+  padding-top: 25rem;
+  padding-bottom: 25rem;
+}
+
+section.hero1 h3 {
   font-size: 7rem;
   font-weight: 500;
   color: white;

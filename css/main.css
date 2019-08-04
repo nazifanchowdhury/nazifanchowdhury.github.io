@@ -68,14 +68,14 @@ section.issaMe{
   margin-top: -50px;
 }
 
+
 section.hero {
   background-image: url("../img/night.jpg");
   width: 100%;
   margin: 0 auto;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: -20px;
-
+  background-size: 100% 100%;
 }
 
 section.hero1 {

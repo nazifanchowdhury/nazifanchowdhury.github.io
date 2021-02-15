@@ -23,37 +23,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 img { 
-    width: 100%;
+    width: 80%;
     height: auto;
-}
-@media (max-width: 575.98px) {
-  html {
-    font-size: 55%;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-  html {
-    font-size: 58%;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  html {
-    font-size: 60%;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  html {
-    font-size: 62.5%;
-  }
-}
-
-@media (min-width: 1200px) {
-  html {
-    font-size: 62.5%;
-  }
 }
 
 /*
@@ -62,10 +33,11 @@ STARSS
 
 .night{
   position: absolute;
-  width: 800px;
-  height: 500px;
-  transform: rotateZ(50deg);
+  width: 100%;
+  height: auto;
+  transform: rotateZ(45deg);
 }
+
 
 .star {
   position: absolute;
@@ -80,7 +52,7 @@ STARSS
 .star::before, .star::after {
   position: absolute;
   content: '';
-  top: calc(50% - 1px);
+  top: calc(50% - 2px);
   right: 0;
   height: 3px;
   background: linear-gradient(-45deg, rgba(0, 0, 255, 0), #f2f3f5, rgba(0, 0, 255, 0));
@@ -94,8 +66,8 @@ STARSS
 }
 
 .star:nth-child(1) {
-  top: calc(50% - 100px);
-  left: calc(50% - 300px);
+  top: calc(50% - 50px);
+  left: calc(50% - 150px);
   animation-delay: 650ms;
 }
 .star:nth-child(1)::before, .star:nth-child(1)::after {
@@ -197,13 +169,14 @@ STARSS
 
 
 
+
+
+
 /* Hero Section */
 #hero {
   width: 100%;
   height: 100vh;
   background: url("../img/hero-bg.jpg") top center;
-  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../img/hero-bg.jpg");
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -256,11 +229,11 @@ STARSS
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
+    font-size: 50px;
     line-height: 36px;
   }
-  #hero h2 {
-    font-size: 18px;
+  #hero p {
+    font-size: 28px;
     line-height: 24px;
     margin-bottom: 30px;
   }
@@ -271,10 +244,6 @@ STARSS
 section {
   padding: 60px 0;
   overflow: hidden;
-}
-
-.section-bg {
-  background: #e7eaee;
 }
 
 .section-title {
@@ -339,7 +308,7 @@ Socials Icons
   color: white;
 }
 
-/*Insta*/
+/*github*/
 
 .fa-github {
   background: #4e1096;

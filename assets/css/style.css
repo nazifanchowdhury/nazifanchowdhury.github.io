@@ -5,7 +5,8 @@ body {
   height: auto;
   font-family: "Poppins", sans-serif;
   color: #e7edf3;
-  background-color: rgb(17, 8, 41);
+  background-color: rgb(20, 9, 51);
+  background-repeat: no-repeat;
 }
 
 a {
@@ -19,7 +20,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 
@@ -36,7 +37,7 @@ STARSS
   position: absolute;
   width: 50%;
   height: 50vh;
-  transform: rotateZ(30deg);
+  transform: rotateZ(47deg);
 }
 
 
@@ -172,7 +173,6 @@ STARSS
 #hero {
   width: 100%;
   height: 100vh;
-  margin: 0 auto;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -288,13 +288,13 @@ Socials Icons
 
 /* Medium */
 .fa-medium{
-  background: #290c5f57;
+  background: #000000;
   color: white;
 }
 
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
+/* Email */
+.fa-envelope {
+  background: #5c5472;
   color: white;
 }
 
@@ -339,7 +339,6 @@ Socials Icons
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #000000;
   line-height: 0;
 }
 

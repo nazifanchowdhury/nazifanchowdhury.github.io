@@ -37,7 +37,7 @@ STARSS
   position: absolute;
   width: 50%;
   height: 50vh;
-  transform: rotateZ(47deg);
+  transform: rotateZ(50deg);
 }
 
 
@@ -113,21 +113,12 @@ STARSS
 }
 
 .star:nth-child(6) {
-  top: calc(50% - -200px);
-  left: calc(50% - 200px);
-  animation-delay: 2300ms;
-}
-.star:nth-child(6)::before, .star:nth-child(6)::after {
-  animation-delay: 2300ms;
-}
-
-.star:nth-child(7) {
   top: calc(50% - -250px);
   left: calc(50% - 200px);
   animation-delay: 2500ms;
 }
-.star:nth-child(7)::before, .star:nth-child(7)::after {
-  animation-delay: 250ms;
+.star:nth-child(6)::before, .star:nth-child(6)::after {
+  animation-delay: 2500ms;
 }
 
 
